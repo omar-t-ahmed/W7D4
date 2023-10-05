@@ -1,19 +1,33 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-width: 1px ;
+  border-style: solid; 
+  border-color: black ; 
+  margin-right: 10px;
+  align-items: center;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px ;
+  border-style: solid; 
+  border-color: black ;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      border-width: 1px ;
+  border-style: solid; 
+  border-color: black ;
+  margin-right: 10px;
     }
   }
 
@@ -23,9 +37,16 @@
 }
 
 .right-nav  {
+  display: flex;
+  align-items: center;
   > ul {
     > li {
-      
+
+      border-width: 1px ;
+      border-style: solid; 
+      border-color: black ;
+      margin-right: 10px;
+  
     }
 
     > li:last-of-type {
